@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Awinash Kamble | AWS DevOps Engineer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Awinash Kamble</h1>
+<p>AWS Cloud & DevOps Engineer | Linux | Docker | Python</p>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+AWS Cloud & DevOps Engineer with 8+ years of experience designing scalable infrastructure,
+automating deployments and managing Linux servers.
+</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+
+<ul>
+<li>AWS (EC2, S3, IAM, VPC)</li>
+<li>Docker Containerization</li>
+<li>Kubernetes Basics</li>
+<li>Linux Server Administration</li>
+<li>Python Automation</li>
+<li>Shell Scripting</li>
+<li>CI/CD Pipelines</li>
+</ul>
+
+</section>
+
+<section id="projects">
+<h2>DevOps Labs / Projects</h2>
+
+<div class="project">
+<h3>AWS Infrastructure Lab</h3>
+<p>Designed secure VPC architecture with EC2, IAM and S3 backup.</p>
+</div>
+
+<div class="project">
+<h3>Docker Deployment</h3>
+<p>Containerized Python application and deployed on AWS EC2.</p>
+</div>
+
+<div class="project">
+<h3>Linux Automation Script</h3>
+<p>Created shell scripts to automate server backups and log monitoring.</p>
+</div>
+
+<div class="project">
+<h3>Python Data Automation</h3>
+<p>Automated Excel/PDF data extraction and reporting using Python.</p>
+</div>
+
+</section>
+
+<section id="services">
+<h2>Freelance Services</h2>
+
+<ul>
+<li>AWS Server Setup</li>
+<li>Docker Application Deployment</li>
+<li>Linux Server Troubleshooting</li>
+<li>DevOps Automation</li>
+<li>Python Data Processing</li>
+</ul>
+
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+
+<p>Email: your-email@gmail.com</p>
+<p>GitHub: github.com/AwinashKamble</p>
+
+</section>
+
+<footer>
+<p>© 2026 Awinash Kamble</p>
+</footer>
+
+</body>
+</html>
