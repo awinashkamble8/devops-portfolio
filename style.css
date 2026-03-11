@@ -2,8 +2,22 @@ body{
 
 margin:0;
 font-family:'Segoe UI',sans-serif;
-background:linear-gradient(135deg,#020617,#0f172a,#020617);
+background:#020617;
 color:white;
+
+}
+
+
+/* PARTICLES BACKGROUND */
+
+#particles-js{
+
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+z-index:-1;
 
 }
 
@@ -16,8 +30,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 50px;
-background:rgba(0,0,0,0.6);
-backdrop-filter:blur(10px);
+background:rgba(0,0,0,0.7);
 position:sticky;
 top:0;
 
@@ -37,7 +50,6 @@ margin-left:25px;
 color:#cbd5f5;
 text-decoration:none;
 font-size:16px;
-transition:0.3s;
 
 }
 
@@ -53,24 +65,25 @@ color:#38bdf8;
 .hero{
 
 text-align:center;
-padding:120px 20px;
+padding:140px 20px;
 
 }
 
 .hero h1{
 
-font-size:48px;
+font-size:50px;
 background:linear-gradient(90deg,#38bdf8,#22c55e);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
 
 }
 
-.hero p{
+#typing{
 
+font-size:20px;
 color:#94a3b8;
-font-size:18px;
-margin-top:10px;
+border-right:2px solid #38bdf8;
+padding-right:6px;
 
 }
 
@@ -84,7 +97,6 @@ color:white;
 font-size:16px;
 border-radius:8px;
 cursor:pointer;
-transition:0.3s;
 
 }
 
@@ -104,7 +116,7 @@ padding:70px 10%;
 }
 
 
-/* PROJECT CARDS */
+/* CARDS */
 
 .card-container{
 
@@ -121,13 +133,12 @@ background:#0f172a;
 border:1px solid #1e293b;
 padding:25px;
 border-radius:12px;
-transition:0.3s;
 
 }
 
 .card:hover{
 
-transform:translateY(-6px);
+transform:translateY(-5px);
 box-shadow:0 10px 25px rgba(56,189,248,0.25);
 
 }
@@ -151,7 +162,6 @@ border:1px solid #1e293b;
 padding:12px;
 border-radius:8px;
 text-align:center;
-transition:0.3s;
 
 }
 
@@ -159,15 +169,6 @@ transition:0.3s;
 
 background:#38bdf8;
 color:black;
-
-}
-
-
-/* CONTACT */
-
-#contact p{
-
-color:#cbd5f5;
 
 }
 
