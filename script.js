@@ -116,3 +116,39 @@ setTimeout(typeTerminal,400);
 }
 
 typeTerminal();
+
+/* FETCH GITHUB REPOS */
+
+async function loadRepos(){
+
+const username="awinashkamble8";
+
+const response=await fetch(`https://api.github.com/users/${username}/repos`);
+
+const repos=await response.json();
+
+const container=document.getElementById("repo-container");
+
+repos.slice(0,6).forEach(repo=>{
+
+const card=document.createElement("div");
+
+card.className="repo-card";
+
+card.innerHTML=`
+
+<h3>${repo.name}</h3>
+
+<p>${repo.description || "DevOps / Cloud project"}</p>
+
+<a href="${repo.html_url}" target="_blank">View Repository →</a>
+
+`;
+
+container.appendChild(card);
+
+});
+
+}
+
+loadRepos();
